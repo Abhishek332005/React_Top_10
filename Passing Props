@@ -1,0 +1,6 @@
+const Child = ({ name }) => <h3>Hello {name}</h3>;
+
+function Parent() {
+  return <Child name="Abhishek" />;
+}
+export default Parent;
